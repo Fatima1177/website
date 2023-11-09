@@ -3,11 +3,12 @@ header {
     backdrop-filter: blur(15px);
 
     .main-header {
+        border-bottom: 1px solid rgba(173, 173, 173, 0.17);
         display: flex;
         align-items: center;
         justify-content: center;
-        align-items: center;
-        gap: 53px;
+        padding: 17px;
+        gap: 80px;
         .header-logo {
             cursor: pointer;
             display: flex;
@@ -126,6 +127,74 @@ header {
     }
 
     .links-header {
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+        .browseAllCategory{
+            padding: 14px;
+            border-radius: 2px;
+            background: #3BB77E;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            li{
+                gap: 5px;
+                padding: 10px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                color: #253D4E;
+                font-size: 16px;
+                font-weight: 500;
+                img{
+                    width: 20px;
+                    height: 20px;
+                    object-fit: cover;
+                }
+                &:hover{
+                    color: #3BB77E;
+                    img{
+                        fill: green;
+                    }
+                }
+
+            }
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        
+            img {
+                 width: 20px;
+                height: 20px;
+                object-fit: cover;
+            }
+        
+            span {
+                color: #3BB77E;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        
+            p {
+                color: #253D4E;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
 
         
     }

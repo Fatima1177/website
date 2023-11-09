@@ -5,6 +5,13 @@ import wishlist from '../../assets/img/ikons/Wishlist.svg'
 import mycard from '../../assets/img/ikons/Mycard.svg'
 import down from '../../assets/img/ikons/down.svg'
 import profpic from '../../assets/img/picture/profpic.png'
+import browseAll from '../../assets/img/ikons/browseAll.svg'
+import home from '../../assets/img/ikons/Home.svg'
+import hot from '../../assets/img/ikons/hot.svg'
+import percent from '../../assets/img/ikons/percent.svg'
+import megaphone from '../../assets/img/ikons/megaphone.svg'
+import call from '../../assets/img/ikons/Call.svg'
+
 
 
 const Header = () => {
@@ -56,9 +63,6 @@ const Header = () => {
           </div>
         </div>
 
-          
-        
-
         <div className="toggle-menu">
           <img id='profPicture' src={profpic} alt="" />
           <h3>Ramzi Cherif</h3>
@@ -66,7 +70,41 @@ const Header = () => {
         </div>
         
       </div>
+
       <div className="links-header">
+        <button className='browseAllCategory'>
+          <img src={browseAll} alt="" />
+          Brows All Categories
+        </button>
+
+        <ul>
+          <li>
+            <img src={home} alt="" />
+            Home
+          </li>
+
+          <li>
+            <img src={hot} alt="" />
+            Hot deals
+          </li>
+
+          <li>
+            <img src={percent} alt="" />
+            Promotions
+          </li>
+
+          <li>
+            <img src={megaphone} alt="" />
+            New products
+          </li>
+
+        </ul>
+
+        <div className="contact-info">
+          <img src={call} alt="" />
+          <span>1233-7777</span>
+          <p>24/7 support center</p>
+        </div>
 
       </div>
     </header>
