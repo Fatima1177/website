@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import HomePage from './pages/HomePage'
+import './styles/reset.css'
 
 
 
@@ -7,7 +9,6 @@ import ReactDOM from 'react-dom/client'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    <h1>salam</h1>
-    <h2>alo</h2>
+    <HomePage/>
   </>
 )
