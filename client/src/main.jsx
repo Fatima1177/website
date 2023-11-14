@@ -5,8 +5,6 @@ import './styles/reset.css'
 
 
 
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <HomePage/>
