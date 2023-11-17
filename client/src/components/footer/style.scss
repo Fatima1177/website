@@ -1,0 +1,73 @@
+.footer-card{
+    .container{
+        
+        .footer-info{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .contact-info{
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+              .footer-logo{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                img{
+                    width: 56px;
+                    height: 56px;
+                }
+                .footer-logo-txt{   
+                    h2{
+                        color: #3BB77E;
+                        font-size: 28px;
+                        font-weight: 700;
+                    }
+                    h3{
+                        color:  #ADADAD;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                }
+              }  
+            }
+            .info{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    li{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        color: #253D4E;
+                        font-size: 16px;
+                        font-weight: 500;
+                        img{
+                          width: 18px;
+                          height: 18px;  
+                        }
+
+                    }
+                }
+            }
+            .acount{
+                ul{
+                    li{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

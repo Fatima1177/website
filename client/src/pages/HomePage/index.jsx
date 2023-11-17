@@ -2,10 +2,11 @@ import './style.scss'
 import Header from '../../components/header'
 import ProductHeading from '../../components/products'
 import MiniCard from '../../components/MiniCard'
+import RaitingCard from '../../components/raitingCard'
+import FooterCard from '../../components/footer'
 
 import {products} from '../../data/product'
 import {featured_products} from '../../data/featured-products'
-import RaitingCard from '../../components/raitingCard'
 
 const HomePage = () => {
   return (
@@ -50,6 +51,8 @@ const HomePage = () => {
 
         </section>
       </section>
+
+      <FooterCard/>
 
     </div>
   )
