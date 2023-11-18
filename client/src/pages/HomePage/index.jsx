@@ -4,6 +4,8 @@ import ProductHeading from '../../components/products'
 import MiniCard from '../../components/MiniCard'
 import RaitingCard from '../../components/raitingCard'
 import FooterCard from '../../components/footer'
+import SpecialCard from '../../components/specialCard'
+import AppCard from '../../components/appCard'
 
 import {products} from '../../data/product'
 import {featured_products} from '../../data/featured-products'
@@ -52,7 +54,10 @@ const HomePage = () => {
         </section>
       </section>
 
+      <SpecialCard/>
+      
       <FooterCard/>
+
 
     </div>
   )

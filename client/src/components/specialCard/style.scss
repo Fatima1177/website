@@ -1,0 +1,43 @@
+.special-offers{
+    margin: 100px 0 101px 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .offers{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            padding: 20px;
+            transition: .3s;
+            cursor: pointer;
+            img{
+                width: 52px;
+                height: 52px;
+            }
+            .offers-txt{
+                h2{
+                    color: #253D4E;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 9px;
+                }
+                p{
+                    color:  #ADADAD;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+            }
+            &:hover{
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.062);
+                border-radius: 8px;
+                transform: scale(1.04);
+
+            }
+        }
+
+    }
+}

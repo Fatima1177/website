@@ -3,9 +3,8 @@
         
         .footer-info{
             display: flex;
-            align-items: center;
             justify-content: space-between;
-
+            transition: .5s;
             .contact-info{
                 display: flex;
                 gap: 20px;
@@ -34,6 +33,7 @@
               }  
             }
             .info{
+                transition: .10s;
                 ul{
                     display: flex;
                     flex-direction: column;
@@ -53,13 +53,63 @@
                     }
                 }
             }
-            .acount{
-                ul{
-                    li{
-                        
-                    }
+
+            ul{
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+                h2{
+                    color: #253D4E;
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+                li{
+                    &:hover {
+                            transform: scale(1.01);
+                            color: #253D4E;
+                        }
                 }
             }
+            
+        }
+
+        .line2{
+            width: 1200px;
+            height: 2px;
+            background: #adadad43;
+            margin: 70px 0 29px 0;
+        }
+        .bottom-footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 29px;
+            p{
+                color:  #253D4E;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            .payment{
+               img{
+                width: 224px;
+                height: 32px;
+               } 
+            }
+            .footer-ikons{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 6px;
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+
         }
     }
 }

@@ -4,6 +4,12 @@ import location from '../../assets/img/ikons/location.svg'
 import phone from '../../assets/img/ikons/phone.svg'
 import email from '../../assets/img/ikons/email.svg'
 import clock from '../../assets/img/ikons/clock.svg'
+import payment from '../../assets/img/ikons/payment.svg'
+import facebook from '../../assets/img/ikons/facebook.svg'
+import linkedin from '../../assets/img/ikons/linkedin.svg'
+import instagram from '../../assets/img/ikons/instagram.svg'
+import twitter from '../../assets/img/ikons/twitter.svg'
+
 
 
 const FooterCard = () => {
@@ -42,7 +48,7 @@ const FooterCard = () => {
                 </div>
                 <div className="acount">
                     <ul>
-                        <h1>Account</h1>
+                        <h2>Account</h2>
                         <li>Wishlist</li>
                         <li>Cart</li>
                         <li>Track Order</li>
@@ -51,7 +57,7 @@ const FooterCard = () => {
                 </div>
                 <div className="footer-links">
                     <ul>
-                        <h1>Useful links</h1>
+                        <h2>Useful links</h2>
                         <li>About Us</li>
                         <li>Conact </li>
                         <li>Hot deals</li>
@@ -61,7 +67,7 @@ const FooterCard = () => {
                 </div>
                 <div className="help-sec">
                     <ul>
-                        <h1>Help Center</h1>
+                        <h2>Help Center</h2>
                         <li>Payments</li>
                         <li>Refund</li>
                         <li>Checkout</li>
@@ -72,7 +78,21 @@ const FooterCard = () => {
                 </div>
 
             </div>
+            <div className="line2">
 
+            </div>
+            <div className='bottom-footer'>
+                <p>© 2022, All rights reserved</p>
+                <div className="payments">
+                    <img src={payment} alt="" />
+                </div>
+                <div className="footer-ikons">
+                    <img src={facebook} alt="" />
+                    <img src={linkedin} alt="" />
+                    <img src={instagram} alt="" />
+                    <img src={twitter} alt="" />
+                </div>
+            </div>
 
         
         </div>
