@@ -54,6 +54,8 @@ const HomePage = () => {
         </section>
       </section>
 
+      <AppCard/>
+
       <SpecialCard/>
       
       <FooterCard/>
