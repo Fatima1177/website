@@ -1,8 +1,8 @@
-import image1 from "../assets/img/pictures/products/featured/image1.svg";
-import image2 from "../assets/img/pictures/products/featured/image2.svg";
-import image3 from "../assets/img/pictures/products/featured/image3.svg";
-import image4 from "../assets/img/pictures/products/featured/image4.svg";
-import image5 from "../assets/img/pictures/products/featured/image5.svg";
+import image1 from "../assets/img/pictures/products/category/image1.svg";
+import image2 from "../assets/img/pictures/products/category/image2.svg";
+import image3 from "../assets/img/pictures/products/category/image3.svg";
+import image4 from "../assets/img/pictures/products/category/image4.svg";
+import image5 from "../assets/img/pictures/products/category/image5.svg";
 
 
 
@@ -10,6 +10,7 @@ import image5 from "../assets/img/pictures/products/featured/image5.svg";
 export const featured_products = [
   {
     id: 1,
+    status: 'top-seller',
     img: image1,
     title: "Redish 500g",
     raitingBy5: 4,
@@ -20,6 +21,7 @@ export const featured_products = [
   },
   {
     id: 2,
+    status: 'top-rated',
     img: image2,
     title: "Tomatos 200g",
     raitingBy5: 3,
@@ -30,6 +32,7 @@ export const featured_products = [
   },
   {
     id: 3,
+    status: 'top-seller',
     img: image3,
     title: "Potatos 1kg",
     raitingBy5: 5,
@@ -40,6 +43,7 @@ export const featured_products = [
   },
   {
     id: 4,
+    status: 'trending-items',
     img: image4,
     title: "Broccoli 1kg",
     raitingBy5: 3,
@@ -50,6 +54,29 @@ export const featured_products = [
   },
   {
     id: 5,
+    status: 'top-seller',
+    img: image5,
+    title: "Green Beans 250g",
+    raitingBy5: 2,
+    seller:"Mr Fooder",
+    hasDiscount: true,
+    beforePrice: 12.99,
+    currentPrice: 7.33,
+  },
+  {
+    id: 5,
+    status: 'top-seller',
+    img: image5,
+    title: "Green Beans 250g",
+    raitingBy5: 2,
+    seller:"Mr Fooder",
+    hasDiscount: true,
+    beforePrice: 12.99,
+    currentPrice: 7.33,
+  },
+  {
+    id: 5,
+    status: 'top-seller',
     img: image5,
     title: "Green Beans 250g",
     raitingBy5: 2,

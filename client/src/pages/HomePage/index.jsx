@@ -6,6 +6,7 @@ import RaitingCard from '../../components/raitingCard'
 import FooterCard from '../../components/footer'
 import SpecialCard from '../../components/specialCard'
 import AppCard from '../../components/appCard'
+import HorizontalProducts from '../../components/horizontalProducts'
 
 import {products} from '../../data/product'
 import {featured_products} from '../../data/featured-products'
@@ -52,6 +53,85 @@ const HomePage = () => {
           </div>
 
         </section>
+      </section>
+
+      <section className="table-products">
+            <div className="container">
+              <div className="column">
+                <h1>Top</h1>
+
+                <div className="line">
+                  <span></span>
+                </div>
+
+                <div className="tableCards-wrapper">
+                  {
+                    featured_products.map((item, index)=>{
+                       return <HorizontalProducts key={index} item={item}/>
+
+                    })
+                  }
+
+                </div>
+              </div>
+
+              <div className="column">
+                <h1>Top</h1>
+
+                <div className="line">
+                  <span></span>
+                </div>
+
+                <div className="tableCards-wrapper">
+                  {
+                    featured_products.map((item, index)=>{
+                       return <HorizontalProducts key={index} item={item}/>
+
+                    })
+                  }
+
+                </div>
+              </div>
+
+              <div className="column">
+                <h1>Top</h1>
+
+                <div className="line">
+                  <span></span>
+                </div>
+
+                <div className="tableCards-wrapper">
+                  {
+                    featured_products.map((item, index)=>{
+                       return <HorizontalProducts key={index} item={item}/>
+
+                    })
+                  }
+
+                </div>
+              </div>
+
+              <div className="column">
+                <h1>Top</h1>
+
+                <div className="line">
+                  <span></span>
+                </div>
+
+                <div className="tableCards-wrapper">
+                  {
+                    featured_products.map((item, index)=>{
+                       return <HorizontalProducts key={index} item={item}/>
+
+                    })
+                  }
+
+                </div>
+              </div>
+
+
+
+            </div>
       </section>
 
       <AppCard/>
